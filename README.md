@@ -1,2 +1,1 @@
-# libraryAssist
-Library Assistance System based on RFID technology
+# libraryAssistThe aim is to replace barcode stickers with RFID stickers and develop dedicated hardware to read/write information into RFID memory using microcontroller, MiFare RC522 RFID reader/writer and Nextion HMI touch display as GUI.
