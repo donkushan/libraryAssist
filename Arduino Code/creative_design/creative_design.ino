@@ -19,13 +19,13 @@ void setup() {
 //  nexInit();
   Serial.println("Device Connection Established!");
 
-  // Setup Wi-Fi connection
-//  sendCommand("AT+RST\r\n", 2000, DEBUG); // reset module
-//  sendCommand("AT+CWMODE=1\r\n", 1000, DEBUG); // configure as access point
-//  sendCommand("AT+CWJAP=\"NOKIA\",\"heshansandeepa94\"\r\n", 3000, DEBUG);
-//  sendCommand("AT+CIPMUX=0\r\n", 1000, DEBUG); // configure for single connections
-//  Serial.println("Wi-Fi connection established!");
-//  Serial.println("Setup complete!");
+   Setup Wi-Fi connection
+  sendCommand("AT+RST\r\n", 2000, DEBUG); // reset module
+  sendCommand("AT+CWMODE=1\r\n", 1000, DEBUG); // configure as access point
+  sendCommand("AT+CWJAP=\"NOKIA\",\"heshansandeepa94\"\r\n", 3000, DEBUG);
+  sendCommand("AT+CIPMUX=0\r\n", 1000, DEBUG); // configure for single connections
+  Serial.println("Wi-Fi connection established!");
+  Serial.println("Setup complete!");
   
 }
 
